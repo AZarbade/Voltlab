@@ -8,18 +8,19 @@
 Detailed plan of action with checkboxes:
 
 1. **Define Requirements**:
-   - [ ] List all desired functionalities such as QR code scanning, access control, data logging, and billing.
-   - [ ] Specify hardware and software compatibility requirements.
-   - [ ] Determine user interface requirements for administrators and users.
+   - [ ] Desired functionalities:
+        - QR code scanning 
+        - User access control 
+        - Data logging
+   - [ ] User interface for administrators and users.
 
 2. **Hardware Selection**:
-   - [ ] Research and select ESP32 microcontrollers, smart relays, and QR code scanners.
-   - [ ] Ensure compatibility and availability of required hardware components.
+   - [ ] ESP32 microcontrollers, relays, current / voltage sensors.
    - [ ] Purchase necessary hardware components.
 
 3. **Software Development**:
    - **ESP32 Programming**:
-     - [ ] Develop firmware for ESP32 to handle QR code scanning.
+     - [ ] Develop firmware for ESP32 to handle QR code generation.
      - [ ] Implement relay control functionality.
      - [ ] Integrate data logging capabilities.
      - [ ] Establish communication protocols for home assistance integration.
@@ -30,28 +31,28 @@ Detailed plan of action with checkboxes:
 
 4. **Networking Setup**:
    - [ ] Configure WiFi network for ESP32 communication.
-   - [ ] Implement security measures such as WPA2 encryption.
-   - [ ] Ensure network stability and reliability.
+   NOTE: not really familiar with networking stuff, will figure out later :p.
 
 5. **User Interface Development**:
-   - [ ] Design user interface for administrators to view usage data and manage permissions.
-   - [ ] Develop a user-friendly interface for users to access equipment via QR code scanning.
-   - [ ] Implement functionality for generating billing reports.
+  NOTE: Not thinking about this now.
+   <!-- - [ ] Design user interface for administrators to view usage data and manage permissions. -->
+   <!-- - [ ] Develop a user-friendly interface for users to access equipment via QR code scanning. -->
+   <!-- - [ ] Implement functionality for generating billing reports. -->
 
-6. **Testing and Iteration**:
-   - [ ] Conduct thorough testing of the entire system.
-   - [ ] Identify and address any bugs or issues.
-   - [ ] Gather feedback from users and administrators for improvements.
-   - [ ] Iterate on software and hardware as needed.
-
-7. **Deployment**:
-   - [ ] Install hardware components in designated locations within the lab premises.
-   - [ ] Configure software settings and perform initial setup.
-   - [ ] Train users and administrators on system usage and maintenance.
-
-8. **Maintenance and Updates**:
-   - [ ] Monitor system performance and usage data regularly.
-   - [ ] Address any technical issues or hardware failures promptly.
-   - [ ] Implement software updates and improvements based on user feedback and emerging needs.
+<!-- 6. **Testing and Iteration**: -->
+<!--    - [ ] Conduct thorough testing of the entire system. -->
+<!--    - [ ] Identify and address any bugs or issues. -->
+<!--    - [ ] Gather feedback from users and administrators for improvements. -->
+<!--    - [ ] Iterate on software and hardware as needed. -->
+<!---->
+<!-- 7. **Deployment**: -->
+<!--    - [ ] Install hardware components in designated locations within the lab premises. -->
+<!--    - [ ] Configure software settings and perform initial setup. -->
+<!--    - [ ] Train users and administrators on system usage and maintenance. -->
+<!---->
+<!-- 8. **Maintenance and Updates**: -->
+<!--    - [ ] Monitor system performance and usage data regularly. -->
+<!--    - [ ] Address any technical issues or hardware failures promptly. -->
+<!--    - [ ] Implement software updates and improvements based on user feedback and emerging needs. -->
 
 
