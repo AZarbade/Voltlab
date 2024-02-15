@@ -9,7 +9,7 @@ Detailed plan of action with checkboxes:
 
 1. **Define Requirements**:
    - [ ] Desired functionalities:
-        - QR code scanning 
+        - QR code generation
         - User access control 
         - Data logging
    - [ ] User interface for administrators and users.
