@@ -1,11 +1,11 @@
 
-Voltlab - Lab Power Management System
+# Voltlab - Lab Power Management System
 
 **Description**: Voltlab is a lab power management system powered by ESP32 technology. Its functionality is straightforward: users can access specific lab equipment by scanning a QR code affixed to a smart relay that controls power to that specific machine. Upon scanning the QR code, users gain access to the designated equipment, with all usage data meticulously logged and attributed to the respective user.
 **Technical Specifications**: Voltlab operates with multiple ESP32 devices connected to the same WiFi network. These devices are seamlessly integrated into a home assistance system, providing administrators with comprehensive insights into the lab's network and usage details through a dedicated plugin.
 #Doing
 
-Sure, here's a more detailed plan of action with checkboxes:
+Detailed plan of action with checkboxes:
 
 1. **Define Requirements**:
    - [ ] List all desired functionalities such as QR code scanning, access control, data logging, and billing.
